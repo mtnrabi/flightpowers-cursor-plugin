@@ -1,0 +1,24 @@
+{
+  "name": "flightpowers-travel-data",
+  "version": "1.0.0",
+  "description": "Live Google Flights fares and Booking.com room rates, with Google's own price band on every fare. Bring your own RapidAPI key.",
+  "author": {
+    "name": "Matan Rabi",
+    "email": "matan@flightpowers.com"
+  },
+  "homepage": "https://flightpowers.com",
+  "repository": "https://github.com/mtnrabi/flightpowers-cursor-plugin",
+  "keywords": ["flights", "hotels", "travel", "pricing", "mcp"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "RAPIDAPI_KEY": {
+        "type": "string",
+        "title": "RapidAPI key",
+        "description": "Your own RapidAPI key. Get one at rapidapi.com/mtnrabi/api/google-flights-live-api (flights) and rapidapi.com/mtnrabi/api/booking-live-api (hotels). The free BASIC plan needs no card."
+      }
+    },
+    "required": ["RAPIDAPI_KEY"]
+  }
+}

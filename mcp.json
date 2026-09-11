@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "flightpowers-flights": {
+      "url": "https://flights.flightpowers.com/mcp",
+      "headers": {
+        "x-rapidapi-key": "${RAPIDAPI_KEY}"
+      }
+    },
+    "flightpowers-hotels": {
+      "url": "https://hotels.flightpowers.com/mcp",
+      "headers": {
+        "x-rapidapi-key": "${RAPIDAPI_KEY}"
+      }
+    }
+  }
+}
