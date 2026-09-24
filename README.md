@@ -1,7 +1,8 @@
 # FlightPowers: live flight and hotel prices in Cursor
 
-Two remote MCP servers that read live prices, not schedules. You bring your own RapidAPI key
-and the calls are billed to your plan, not ours.
+Two remote MCP servers that read live prices, not schedules. Sign in with Google and your first
+10 searches each day are free and ad-free on our key, with nothing to paste. Past that you bring
+your own RapidAPI key and the calls are billed to your plan, not ours.
 
 ## What you get
 
@@ -30,6 +31,13 @@ and the calls are billed to your plan, not ours.
 Every tool is read-only and annotated as such (`readOnlyHint: true`, `destructiveHint: false`).
 
 ## Setup
+
+**To just try it, skip step 1.** Install the plugin, leave `RAPIDAPI_KEY` unset, and sign in with
+Google when Cursor offers it: the first 10 searches each UTC day run free and ad-free on our key.
+A search is one date x destination combination, so one call over a three-day range spends three.
+The allowance renews at 00:00 UTC; past it the tools answer with `search_status: "trial_exhausted"`
+rather than an error. `compare_hotel_rates` and multi-source hotel searches are not part of it and
+ask for your own key.
 
 1. Get a RapidAPI key:
    [google-flights-live-api](https://rapidapi.com/mtnrabi/api/google-flights-live-api) for
