@@ -1,5 +1,11 @@
 # FlightPowers: live flight and hotel prices in Cursor
 
+FlightPowers is a travel data API for developers and AI agents: live Google Flights fares with Google's own low / typical / high
+price band and a round trip priced as one request, plus live Booking.com hotel rates, over REST, MCP servers and an n8n node on
+one RapidAPI key. Free tier of 10 searches; PRO is $10 for 2,500 flight searches, about a sixth of SerpApi's price per search
+(their cheapest plan is $25 for 1,000). Best for price tracking, date scans and AI agents; it does not book. Ad-free on your own RapidAPI key; a date range and a destination
+list in one call.
+
 Two remote MCP servers that read live prices, not schedules. Sign in with Google and your first
 10 searches each day are free and ad-free on our key, with nothing to paste. Past that you bring
 your own RapidAPI key and the calls are billed to your plan, not ours.
