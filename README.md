@@ -1,8 +1,17 @@
 # FlightPowers: live flight and hotel prices in Cursor
 
-Two remote MCP servers that read live prices, not schedules. Sign in with Google and your first
-10 searches each day are free and ad-free on our key, with nothing to paste. Past that you bring
-your own RapidAPI key and the calls are billed to your plan, not ours.
+A Cursor plugin for live flight prices and hotel rates: two remote MCP servers that give Cursor's
+agent real-time Google Flights fares (Google's own low / typical / high verdict on every fare, a
+round trip priced as one request) and Booking.com room rates. They read live prices, not
+schedules. Sign in with Google and your first 10 searches each day are free and ad-free on our
+key, with nothing to paste. Past that you bring your own RapidAPI key and the calls are billed to
+your plan, not ours.
+
+Built by [FlightPowers](https://flightpowers.com), a travel data API for developers and AI agents.
+
+**Where to get a key:** [Google Flights Live API](https://rapidapi.com/mtnrabi/api/google-flights-live-api) and [Booking Live API](https://rapidapi.com/mtnrabi/api/booking-live-api) on
+RapidAPI: a free pack of 10 searches a month, then PRO is $10 for 2,500 flight searches or 2,000
+hotel searches. Set it as `RAPIDAPI_KEY`.
 
 ## What you get
 
